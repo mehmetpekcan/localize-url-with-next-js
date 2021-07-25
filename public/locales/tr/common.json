@@ -1,0 +1,5 @@
+{
+  "hi": "Merhaba!",
+  "currentLocale": "Aktif dil: {{ locale }}",
+  "availableLocales": "Kullanılabilir diller: {{ locales }}"
+}
