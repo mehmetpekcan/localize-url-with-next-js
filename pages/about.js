@@ -25,11 +25,13 @@ export default function About() {
 
   return (
     <div>
+      <h2>{router.asPath}</h2>
       <h2>{t("currentLocale", { locale: router.locale })}</h2>
       <h2>{t("availableLocales", { locales: router.locales.toString() })}</h2>
       {t("hi")}
       <br />
       <Link name="/">/index</Link>
+      <br />
       <button
         onClick={() => changeLanguage("en")}
         disabled={router.locale === "en"}
